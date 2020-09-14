@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Form Elements </title>
+</head>
+<body>
+
+	<h1>Learning About Form</h1>
+	<form method="post" action="dashboard.php">
+		<table>
+			<tr>
+				<td><label>Frist Name: </label></td>
+				<td><input type="text" name="fname" value="" required></td>
+			</tr>
+		
+			<tr>
+				<td><label>Last Name: </label></td>
+				<td><input type="text" name="lname" maxlength="10"></td>
+			</tr>
+			<tr>
+				<td><label>Age: </label></td>
+				<td><input type="number" name="age" required></td>
+			</tr>
+			<tr>
+				<td><label>Password: </label></td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td><lable>Qualification: </lable></td>
+				<td>
+					<label>Master Degree: </label>
+					<input type="checkbox" name="masterdegree">
+					<label>Bachelor Degree: </label>
+					<input type="checkbox" name="bachelordegree">
+					<label> +2 </label>
+					<input type="checkbox" name="plustwo">
+				</td>
+			</tr>
+			<tr>
+				<td><label>Gender: </label></td>
+				<td>
+					<label>Male:</label>
+					<input type="radio" name="gender">
+
+					<label>Female:</label>
+					<input type="radio" name="gender">
+				</td>
+			</tr>
+			<tr>
+				<td><label>Country: </label></td>
+				<td>
+					<select>
+						<option>Nepal</option>
+						<option>India</option>
+						<option>China</option>
+						<option>Bhutan</option>
+						<option>Pakistan</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Upload File: </label></td>
+				<td><input type="file" name="uploadfile" id="uploadfile">
+					<input type="hidden" name="hiddenelement" value="bgwebdevelopment">
+				</td>
+			</tr>
+			<tr>
+				<td><input type="button" name="clickablebutton" value="Click Here"></td>
+
+				<td><button>Click Here</button></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="submitbutton" value="Submit Button"></td>
+				<td><input type="reset" name="resetbutton" value="Reset Button"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
