@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ID Vs Class</title>
+	<title> DIV </title>
+
 	<style type="text/css">
-		.headers{
-			color: red;
+
+		#maincontainer{
+
+			height: 600px;
+			width: 500px;
+			background: red;
+			color: white;
+			font-size: 25px;
+			font-style: bold;
+			display: flex;
+
+		}
+		#div1{
+
+			height: 200px;
+			width: 200px;
+			background: green;
+
+		}	
+
+		#div2{
+			height: 200px;
+			width: 200px;
+			background: grey;
+
 		}
 
-		#para{
-			color: orange;
-		}
+		#div3{
+			height: 200px;
+			width: 200px;
+			background: blue;
 
-		#para1{
-			color: green;
+		}
+		p{
+			margin-top: 0;
 		}
 
 	</style>
 
+	
+
 </head>
 <body>
 
-	<h1 class="headers">Hello Header 1</h1>
-	<h2 class="headers">Hello Header 2</h2>
-	<h3 class="headers">Hello Header 3</h3>
+	<h1>DIV</h1>
 
-	<p id="para">Hello Para</p>
-	<p id="para1">Hello Para 2</p>
+	<div id="maincontainer">
+		<!-- DIV 1 -->
+		<div id="div1">
+			<p>This is div 1.</p>
+		</div>
+
+		<!-- DIV 2 -->
+		<div id="div2">
+			<p>This is div 2.</p>
+		</div>
+
+		<!-- DIV 3-->
+		<div id="div3">
+			<p>This is div 3.</p>
+		</div>
+	</div>
 
 </body>
 </html>
