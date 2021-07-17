@@ -2,4 +2,4 @@
 All about HTML Tutorial
 
 #author 
-Binaya 
+Binaya G
